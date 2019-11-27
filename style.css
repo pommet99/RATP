@@ -1,7 +1,5 @@
 body{
-    background-color:green;
-    margin-left: 5%;
-    border-radius: 5px;
+    background-color:grey;
 }
 
 .blink{
@@ -24,7 +22,9 @@ color: #FFFF00;
 
 .lines div{
     background-color: white;
-    padding: 20px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10% ;
 }
 
 .line--work{
