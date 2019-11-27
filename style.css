@@ -1,5 +1,7 @@
 body{
     background-color:green;
+    margin-left: 5%;
+    border-radius: 5px;
 }
 
 .blink{
