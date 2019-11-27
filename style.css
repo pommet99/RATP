@@ -1,37 +1,34 @@
-/* style */
-
-body {
-    background-color: #6091AD;
+body{
+    background-color:#6091ad;
 }
 
-.col--lines .time {
-background-color: black;
-color:yellow;
+.blink{
+    animation: blinker 2s linear infinite;
 }
 
-.col--traffic {
-    background-color:white;
-}
-
-.blink {
-    animation: blinker 1s linear infinite;
-}
-
-@keyframes blinker {
-    50% {
+@keyframes blinker{
+    50%{
         opacity: 0;
     }
 }
 
-.lines div {
-    background-color: whitesmoke;
-    padding:10px;
+.col--lines .time{
+background-color: black;
+color: #FFFF00;
+}
+.col--traffic{
+    background-color: #fff;
 }
 
-.line--works {
-    background-color: yellow !important;
+.lines div{
+    background-color: white;
+    padding: 20px;
+}
+
+.line--work{
+    background-color: rgb(189, 189, 6) !important;
 }
 
 .line--critical{
-    background-color: red;
+    background-color: rgb(195, 4, 4) !important;
 }
